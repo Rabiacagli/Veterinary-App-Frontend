@@ -1,0 +1,114 @@
+.available-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 98%;
+  gap: 4rem;
+}
+.avasearch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.avasearch-container input {
+  background-color: #f9f9e0;
+  color: #f9f9e0;
+  border-radius: 50px;
+  width: 7.5rem;
+}
+
+.avasearch-container button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 50px;
+}
+.table-container {
+  margin: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+}
+
+h2 {
+  color: #3aa6b9;
+  text-align: center;
+  padding: 8px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.operations {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.addavailabledate,
+.updateavailabledate {
+  flex: 0 0 48%;
+}
+
+.addavailabledate h2,
+.updateavailabledate h2 {
+  color: #3aa6b9;
+}
+
+.addavailabledate input,
+.updateavailabledate input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addavailabledate select,
+.updateavailabledate select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addavailabledate button,
+.updateavailabledate button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.addavailabledate button:hover,
+.updateavailabledate button:hover {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+}

@@ -1,0 +1,115 @@
+.report-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 98%;
+  gap: 13.5rem;
+}
+.repsearch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.repsearch-container input {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+  border-radius: 50px;
+  width: 9rem;
+}
+
+.repsearch-container button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 50px;
+}
+
+.table-container {
+  margin: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+}
+
+h1,
+h2 {
+  color: #3aa6b9;
+  text-align: center;
+  padding: 8px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.operations {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.addreport,
+.updatereport {
+  flex: 0 0 48%;
+}
+
+.addreport h2,
+.updatereport h2 {
+  color: #3aa6b9;
+}
+
+.addreport input,
+.updatereport input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addreport select,
+.updatereport select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addreport button,
+.updatereport button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.addreport button:hover,
+.updatereport button:hover {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+}

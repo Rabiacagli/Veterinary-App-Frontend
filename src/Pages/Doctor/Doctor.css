@@ -1,0 +1,107 @@
+.doctor-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 98%;
+  gap: 14rem;
+}
+
+.docsearch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.docsearch-container input {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+  border-radius: 50px;
+  width: 9rem;
+}
+
+.docsearch-container button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 50px;
+}
+
+.table-container {
+  margin: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+}
+
+h1,
+h2 {
+  color: #3aa6b9;
+  text-align: center;
+  padding: 8px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.operations {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.addoctor,
+.updateDoctor {
+  flex: 0 0 48%;
+}
+
+.addoctor h2,
+.updateDoctor h2 {
+  color: #3aa6b9;
+}
+
+.addoctor input,
+.updateDoctor input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.addoctor button,
+.updateDoctor button {
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.addoctor button:hover,
+.updateDoctor button:hover {
+  background-color: #f9f9e0;
+  color: #3aa6b9;
+}

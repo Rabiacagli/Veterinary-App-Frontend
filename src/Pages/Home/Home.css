@@ -1,0 +1,27 @@
+.greeting-container {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background: url("https://pictures.pibig.info/uploads/posts/2023-04/1680856027_pictures-pibig-info-p-veterinar-risunok-pinterest-34.jpg")
+    center top / cover no-repeat;
+  color: #f9f9e0;
+  height: 72vh;
+}
+
+.greeting-container h1 {
+  padding-top: 200px;
+  font-size: 3em;
+  margin-bottom: 20px;
+  width: 40rem;
+}
+.greeting-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3aa6b9;
+  color: #f9f9e0;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
