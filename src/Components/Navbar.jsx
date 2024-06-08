@@ -48,7 +48,7 @@ function Navbar() {
 
   
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#3AA6B9' }}>
+    <AppBar position="static" sx={{ backgroundColor: '#7469b6' }}>
       <Container maxWidth="xl" >
         <Toolbar disableGutters >
           <PetsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1,color: '#FFE6E6' }} />
@@ -100,7 +100,7 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.name} onClick={handleCloseNavMenu} style={{ backgroundColor:'#7469B6' }}>
+                <MenuItem key={page.name} onClick={handleCloseNavMenu} style={{ backgroundColor:'#7469b6' }}>
                   <Link to = {page.path} style={{ textDecoration: 'none', color: '#FFE6E6',fontSize: 18 }}>{page.name}</Link>
                 </MenuItem>
               ))}
@@ -160,7 +160,7 @@ function Navbar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting.name} onClick={handleCloseUserMenu} style={{ backgroundColor:'#7469B6' }}  >
+                <MenuItem key={setting.name} onClick={handleCloseUserMenu} style={{ backgroundColor:'#7469b6' }}  >
                   <Link to = {setting.path} style={{ textDecoration: 'none', color: '#FFE6E6',fontSize: 18}}>{setting.name}</Link>
                 </MenuItem>
               ))}
