@@ -14,15 +14,15 @@
 }
 
 .avasearch-container input {
-  background-color: #f9f9e0;
-  color: #f9f9e0;
+  background-color: #ffe6e6;
+  color: #ffe6e6;
   border-radius: 50px;
   width: 7.5rem;
 }
 
 .avasearch-container button {
-  background-color: #3aa6b9;
-  color: #f9f9e0;
+  background-color: #7469b6;
+  color: #ffe6e6;
   height: 2rem;
   width: 5rem;
   border-radius: 50px;
@@ -45,12 +45,12 @@
 }
 
 .table th {
-  background-color: #f9f9e0;
-  color: #3aa6b9;
+  background-color: #ffe6e6;
+  color: #7469b6;
 }
 
 h2 {
-  color: #3aa6b9;
+  color: #7469b6;
   text-align: center;
   padding: 8px;
 }
@@ -74,7 +74,7 @@ h2 {
 
 .addavailabledate h2,
 .updateavailabledate h2 {
-  color: #3aa6b9;
+  color: #7469b6;
 }
 
 .addavailabledate input,
@@ -97,8 +97,8 @@ h2 {
 
 .addavailabledate button,
 .updateavailabledate button {
-  background-color: #3aa6b9;
-  color: #f9f9e0;
+  background-color: #7469b6;
+  color: #ffe6e6;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -109,6 +109,6 @@ h2 {
 
 .addavailabledate button:hover,
 .updateavailabledate button:hover {
-  background-color: #f9f9e0;
-  color: #3aa6b9;
+  background-color: #ffe6e6;
+  color: #7469b6;
 }

@@ -199,11 +199,11 @@ function AvailableDate() {
                       <div className="icon-container">
                         <DeleteIcon
                           onClick={() => handleDelete(availableDates.availableDateId)}
-                          style={{ color: "#3aa6b9", marginRight: "8px" }}
+                          style={{ color: "#7469B6", marginRight: "8px" }}
                         />
                         <UpdateIcon
                           onClick={() => handleUpdateBtn(availableDates)}
-                          style={{ color: "#3aa6b9" }}
+                          style={{ color: "#7469B6" }}
                         />
                       </div>
                     </td>
@@ -218,11 +218,11 @@ function AvailableDate() {
                       <div className="icon-container">
                         <DeleteIcon
                           onClick={() => handleDelete(availableDates.availableDateId)}
-                          style={{ color: "#3aa6b9", marginRight: "8px" }}
+                          style={{ color: "#7469B6", marginRight: "8px" }}
                         />
                         <UpdateIcon
                           onClick={() => handleUpdateBtn(availableDates)}
-                          style={{ color: "#3aa6b9" }}
+                          style={{ color: "#7469B6" }}
                         />
                       </div>
                     </td>

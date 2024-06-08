@@ -15,15 +15,15 @@
 }
 
 .docsearch-container input {
-  background-color: #f9f9e0;
-  color: #3aa6b9;
+  background-color: #ffe6e6;
+  color: #7469b6;
   border-radius: 50px;
   width: 9rem;
 }
 
 .docsearch-container button {
-  background-color: #3aa6b9;
-  color: #f9f9e0;
+  background-color: #7469b6;
+  color: #ffe6e6;
   height: 2rem;
   width: 5rem;
   border-radius: 50px;
@@ -47,13 +47,13 @@
 }
 
 .table th {
-  background-color: #3aa6b9;
-  color: #f9f9e0;
+  background-color: #7469b6;
+  color: #ffe6e6;
 }
 
 h1,
 h2 {
-  color: #3aa6b9;
+  color: #7469b6;
   text-align: center;
   padding: 8px;
 }
@@ -76,7 +76,7 @@ h2 {
 
 .addoctor h2,
 .updateDoctor h2 {
-  color: #3aa6b9;
+  color: #7469b6;
 }
 
 .addoctor input,
@@ -90,8 +90,8 @@ h2 {
 
 .addoctor button,
 .updateDoctor button {
-  background-color: #3aa6b9;
-  color: #f9f9e0;
+  background-color: #7469b6;
+  color: #ffe6e6;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -102,6 +102,6 @@ h2 {
 
 .addoctor button:hover,
 .updateDoctor button:hover {
-  background-color: #f9f9e0;
-  color: #3aa6b9;
+  background-color: #ffe6e6;
+  color: #7469b6;
 }

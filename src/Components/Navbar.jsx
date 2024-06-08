@@ -51,7 +51,7 @@ function Navbar() {
     <AppBar position="static" sx={{ backgroundColor: '#3AA6B9' }}>
       <Container maxWidth="xl" >
         <Toolbar disableGutters >
-          <PetsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1,color: '#FFF5E4' }} />
+          <PetsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1,color: '#FFE6E6' }} />
           <Typography 
             variant="h6"
             noWrap
@@ -63,7 +63,7 @@ function Navbar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: '#FFF5E4',
+              color: '#FFE6E6',
               textDecoration: 'none',
             }}
           >
@@ -77,7 +77,7 @@ function Navbar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="#FFF5E4"
+              color="#FFE6E6"
             >
               <MenuIcon />
             </IconButton>
@@ -100,13 +100,13 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.name} onClick={handleCloseNavMenu} style={{ backgroundColor:'#3AA6B9' }}>
-                  <Link to = {page.path} style={{ textDecoration: 'none', color: '#FFF5E4',fontSize: 18 }}>{page.name}</Link>
+                <MenuItem key={page.name} onClick={handleCloseNavMenu} style={{ backgroundColor:'#7469B6' }}>
+                  <Link to = {page.path} style={{ textDecoration: 'none', color: '#FFE6E6',fontSize: 18 }}>{page.name}</Link>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <PetsIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1,color: '#FFF5E4' }} />
+          <PetsIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1,color: '#FFE6E6' }} />
           <Typography
             variant="h5"
             noWrap
@@ -119,7 +119,7 @@ function Navbar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: '#FFF5E4',
+              color: '#FFE6E6',
               textDecoration: 'none',
             }}
           >
@@ -130,9 +130,9 @@ function Navbar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, display: 'block', textDecoration: 'none', color: '#FFF5E4' }}
+                sx={{ my: 2, display: 'block', textDecoration: 'none', color: '#FFE6E6' }}
               >
-                <Link to = {page.path} style={{ textDecoration: 'none', color: '#FFF5E4',fontSize: 18 }}>{page.name}</Link>
+                <Link to = {page.path} style={{ textDecoration: 'none', color: '#FFE6E6',fontSize: 18 }}>{page.name}</Link>
               </Button>
             ))}
           </Box>
@@ -140,7 +140,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-              <LocalHospitalIcon sx={{ width: 50, height: 50, display: { md: 'flex' }, mr: 1, color: '#FFF5E4' }}/>
+              <LocalHospitalIcon sx={{ width: 50, height: 50, display: { md: 'flex' }, mr: 1, color: '#FFE6E6' }}/>
               </IconButton>
             </Tooltip>
             <Menu
@@ -160,8 +160,8 @@ function Navbar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting.name} onClick={handleCloseUserMenu} style={{ backgroundColor:'#3AA6B9' }}  >
-                  <Link to = {setting.path} style={{ textDecoration: 'none', color: '#FFF5E4',fontSize: 18}}>{setting.name}</Link>
+                <MenuItem key={setting.name} onClick={handleCloseUserMenu} style={{ backgroundColor:'#7469B6' }}  >
+                  <Link to = {setting.path} style={{ textDecoration: 'none', color: '#FFE6E6',fontSize: 18}}>{setting.name}</Link>
                 </MenuItem>
               ))}
             </Menu>

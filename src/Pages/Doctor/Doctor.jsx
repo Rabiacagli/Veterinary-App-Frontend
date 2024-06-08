@@ -185,11 +185,11 @@ function Doctor() {
                       <div className="icon-container">
                         <DeleteIcon
                           onClick={() => handleDelete(doctors.doctorId)}
-                          style={{ color: "#3AA6B9", marginRight: "8px" }}
+                          style={{ color: "#7469B6", marginRight: "8px" }}
                         />
                         <UpdateIcon
                           onClick={() => handleUpdateBtn(doctors)}
-                          style={{ color: "#3AA6B9" }}
+                          style={{ color: "#7469B6" }}
                         />
                       </div>
                     </td>
@@ -206,11 +206,11 @@ function Doctor() {
                       <div className="icon-container">
                         <DeleteIcon
                           onClick={() => handleDelete(doctors.doctorId)}
-                          style={{ color: "#3AA6B9", marginRight: "8px" }}
+                          style={{ color: "#7469B6", marginRight: "8px" }}
                         />
                         <UpdateIcon
                           onClick={() => handleUpdateBtn(doctors)}
-                          style={{ color: "#3AA6B9" }}
+                          style={{ color: "#7469B6" }}
                         />
                       </div>
                     </td>
